@@ -43,3 +43,9 @@ Live Url : [fm-single-price-grid-dova.netlify.app](https://fm-single-price-grid-
 Live Url : [fm-signup-form-dova.netlify.app](https://fm-signup-form-dova.netlify.app/)
 
 ![](images/signup-form.jpg)
+
+### 8 - APPAREL COMING SOON
+
+Live Url : [fm-apparel-coming-soon-dova.netlify.app](https://fm-apparel-coming-soon-dova.netlify.app/)
+
+![](images/apparel-coming-soon.jpg)

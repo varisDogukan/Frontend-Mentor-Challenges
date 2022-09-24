@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+:root {
+  --clr-main-bg: linear-gradient(hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+  --clr-btn-bg: linear-gradient(to right, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  --clr-btn-hover-bg: hsl(0, 80%, 86%);
+
+  --clr-primary: hsl(0, 36%, 70%);
+  --clr-secondary: hsl(0, 6%, 24%);
+  --clr-error: hsl(0, 93%, 68%);
+}
+
+/*=============================================
+=                 Global Style                =
+=============================================*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+
+  background: var(--clr-main-bg);
+  color: var(--clr-primary);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*=====  End of Global Style  ======*/
+
+.main-container {
+  display: flex;
+  width: 375px;
+  height: 100%;
+}
+
+.img-container {
+  display: none;
+}
+
+/* Section - Container */
+.container {
+  width: 100%;
+}
+
+.logo-container {
+  padding: 2em;
+}
+
+.logo {
+  width: 100px;
+}
+
+.hero-container {
+  width: 100%;
+}
+
+.hero {
+  width: 100%;
+}
+
+.content {
+  padding: 4em 3em;
+  text-align: center;
+}
+
+.content > *:not(:last-child) {
+  margin-bottom: 3rem;
+}
+
+.title {
+  font-size: 2.3em;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 10px;
+}
+
+.title span {
+  display: block;
+  font-weight: 600;
+  color: var(--clr-secondary);
+}
+
+.desc {
+  font-size: 0.8em;
+  line-height: 1.5;
+}
+
+.form {
+  height: 3em;
+  width: 100%;
+  position: relative;
+}
+
+.input {
+  width: 100%;
+  height: 100%;
+  padding: 1em;
+
+  background: transparent;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+}
+
+.input:focus {
+  outline: 1px solid #999;
+}
+
+.input::placeholder {
+  color: #ccc;
+}
+
+.btn {
+  position: absolute;
+  right: -2px;
+  top: 0;
+  width: 60px;
+  height: 100%;
+  border-radius: 50px;
+  border: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: var(--clr-btn-bg);
+  cursor: pointer;
+
+  transition: box-shadow 0.2s linear;
+}
+
+.btn:hover {
+  background: var(--clr-btn-hover-bg);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn:focus {
+  outline: 1px solid #999;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.error-message {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 14px;
+  font-size: 0.8em;
+  transform: translateY(25px);
+  opacity: 0;
+  transition: all 0.4s linear;
+}
+
+.error-icon {
+  display: none;
+  position: absolute;
+  width: 20px;
+  right: 70px;
+  top: 15px;
+  opacity: 0;
+}
+
+.error-input {
+  outline: 1px solid var(--clr-error);
+}
+
+.show {
+  display: block;
+  opacity: 1;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 5rem;
+}
+.attribution a {
+  color: var(--clr-secondary);
+}
+
+@media only screen and (min-width: 1257px) {
+  .main-container {
+    width: 100%;
+    max-width: 1440px;
+  }
+
+  .img-container {
+    display: block;
+    order: 2;
+    height: 100%;
+    width: 50%;
+  }
+
+  .error-icon {
+    right: 90px;
+  }
+
+  .b-hero {
+    height: 100%;
+    background-size: cover;
+  }
+
+  .container {
+    width: 50%;
+    height: 100%;
+    padding: 2rem 7em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hero-container {
+    display: none;
+  }
+
+  .content {
+    text-align: start;
+    padding: 2em;
+    max-width: 415px;
+  }
+
+  .title {
+    font-size: 3.5em;
+  }
+
+  .btn {
+    width: 75px;
+  }
+}
