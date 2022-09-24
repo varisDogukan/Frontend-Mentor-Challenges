@@ -91,3 +91,9 @@ Live Url : [fm-stats-preview-card-dova.netlify.app](https://fm-stats-preview-car
 Live Url : [fm-order-summary-dova.netlify.app](https://fm-order-summary-dova.netlify.app/)
 
 ![](images/order-summary.jpg)
+
+### 16 - PROFILE CARD
+
+Live Url : [fm-profile-card-dova.netlify.app](https://fm-profile-card-dova.netlify.app/)
+
+![](images/profile-card.jpg)
