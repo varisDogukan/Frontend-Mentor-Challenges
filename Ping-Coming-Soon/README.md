@@ -1,6 +1,6 @@
 # Frontend Mentor - Ping coming soon page
 
-[LIVE SITE URL](https://relaxed-ramanujan-4033a9.netlify.app)
+[LIVE SITE URL](https://fm-ping-coming-soon-dova.netlify.app/)
 
 ![Design preview for the Ping coming soon page coding challenge](./design/desktop-preview.jpg)
 

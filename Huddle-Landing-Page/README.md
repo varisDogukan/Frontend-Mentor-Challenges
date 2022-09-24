@@ -1,6 +1,6 @@
 # Frontend Mentor - Huddle landing page with single introductory section
 
-[LIVE SITE URL](https://priceless-bartik-3f1607.netlify.app)
+[LIVE SITE URL](https://fm-huddle-landing-page-dova.netlify.app/)
 
 ![Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)
 

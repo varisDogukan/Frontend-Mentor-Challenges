@@ -2,7 +2,7 @@
 
 ## With React and Styled-Components
 
-[LIVE SITE URL](https://flamboyant-villani-c14dd9.netlify.app)
+[LIVE SITE URL](https://fm-time-tracking-dashboard-dova.netlify.app/)
 
 ![Design preview for the Time tracking dashboard coding challenge](./public/design/desktop-preview.jpg)
 
