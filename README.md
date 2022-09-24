@@ -73,3 +73,9 @@ Live Url : [fm-faq-accordion-card-dova.netlify.app](https://fm-faq-accordion-car
 Live Url : [fm-artical-preview-dova.netlify.app](https://fm-artical-preview-dova.netlify.app/)
 
 ![](images/artical-preview.jpg)
+
+### 13 - 3 COLUMN PREVIEW CARD
+
+Live Url : [fm-3column-preview-card-dova.netlify.app](https://fm-3column-preview-card-dova.netlify.app/)
+
+![](images/3column-preview-card.jpg)
