@@ -109,3 +109,9 @@ Live Url : [fm-tip-calculator-dova.netlify.app](https://fm-tip-calculator-dova.n
 Live Url : [fm-sunnyside-agency-dova.netlify.app](https://fm-sunnyside-agency-dova.netlify.app/)
 
 ![](images/sunnyside-agency-landing-page.jpg)
+
+### 19 - BLOGR LANDING PAGE
+
+Live Url : [fm-blogr-dova.netlify.app](https://fm-blogr-dova.netlify.app/)
+
+![](images/blogr-landing-page.jpg)
