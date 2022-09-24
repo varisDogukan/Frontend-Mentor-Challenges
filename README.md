@@ -97,3 +97,9 @@ Live Url : [fm-order-summary-dova.netlify.app](https://fm-order-summary-dova.net
 Live Url : [fm-profile-card-dova.netlify.app](https://fm-profile-card-dova.netlify.app/)
 
 ![](images/profile-card.jpg)
+
+### 17 - TIP CALCULATOR
+
+Live Url : [fm-tip-calculator-dova.netlify.app](https://fm-tip-calculator-dova.netlify.app/)
+
+![](images/tip-calculator.jpg)
