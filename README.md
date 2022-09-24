@@ -85,3 +85,9 @@ Live Url : [fm-3column-preview-card-dova.netlify.app](https://fm-3column-preview
 Live Url : [fm-stats-preview-card-dova.netlify.app](https://fm-stats-preview-card-dova.netlify.app/)
 
 ![](images/stats-preview-card.jpg)
+
+### 15 - ORDER SUMMARY
+
+Live Url : [fm-order-summary-dova.netlify.app](https://fm-order-summary-dova.netlify.app/)
+
+![](images/order-summary.jpg)
