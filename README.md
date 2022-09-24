@@ -61,3 +61,9 @@ Live Url : [fm-four-card-feature-dova.netlify.app](https://fm-four-card-feature-
 Live Url : [fm-social-proof-section-dova.netlify.app](https://fm-social-proof-section-dova.netlify.app/)
 
 ![](images/social-proof-section.jpg)
+
+### 11 - FAQ ACCORDION CARD
+
+Live Url : [fm-faq-accordion-card-dova.netlify.app](https://fm-faq-accordion-card-dova.netlify.app/)
+
+![](images/faq-accordion-card.jpg)

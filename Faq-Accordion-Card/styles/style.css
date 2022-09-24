@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+  --active-f-clr: hsl(238, 29%, 16%);
+  --hover-f-clr: hsl(14, 88%, 65%);
+  --primary-f-clr: hsl(237, 12%, 33%);
+  --secondary-f-clr: hsl(240, 6%, 50%);
+
+  --primary-bg-clr: hsl(273, 75%, 66%);
+  --secondary-bg-clr: hsl(240, 73%, 65%);
+  --main-bg-clr: hsl(255, 0%, 100%);
+  --tertiary-bg-clr: hsl(240, 5%, 91%);
+}
+
+/**/
+/**/
+/**/
+
+/*=============================================
+=                Global Style                 =
+=============================================*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  padding-top: 10rem;
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(
+    to bottom,
+    var(--primary-bg-clr),
+    var(--secondary-bg-clr)
+  );
+}
+
+/*=====  End of Global Style  ======*/
+
+/**/
+/**/
+/**/
+
+/*----------  Accordion  ----------*/
+.container {
+  width: 338px;
+  padding: 2rem;
+
+  background: var(--main-bg-clr);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.little-box {
+  width: 120px;
+  position: absolute;
+  display: none;
+  top: 45%;
+  left: -11%;
+  z-index: 10;
+  animation: moveUp 4.5s ease-in-out infinite alternate;
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-19px);
+  }
+}
+
+.main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-box {
+  position: relative;
+  width: 100%;
+  height: 100px;
+}
+
+.first-box {
+  position: absolute;
+  top: -140%;
+  left: -2%;
+  background: url('../images/illustration-woman-online-mobile.svg') center
+    center/cover;
+  width: 100%;
+  height: 200px;
+}
+
+.second-box {
+  position: absolute;
+  top: -40%;
+  left: 8%;
+  background: url('../images/bg-pattern-mobile.svg') center center/cover;
+  width: 250px;
+  height: 110px;
+}
+
+.container > * {
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  color: var(--active-f-clr);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.accordion-container {
+  width: 100%;
+}
+
+.accordion {
+  width: 100%;
+  padding: 1rem 0px;
+  border-bottom: 1px solid var(--tertiary-bg-clr);
+}
+
+.heading {
+  width: 100%;
+}
+
+.accordion-title {
+  font-size: 1.14em;
+}
+
+.desc {
+  width: 100%;
+  display: none;
+  color: var(--secondary-f-clr);
+  font-size: 1.02em;
+  margin-top: 1rem;
+}
+
+.accordion-checkbox {
+  display: none;
+}
+
+.accordion-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+
+.accordion-label:hover {
+  color: var(--hover-f-clr);
+}
+
+.icon {
+  transition: all 0.07s linear;
+}
+
+.accordion-checkbox:checked + .accordion-label + .desc {
+  display: block;
+}
+
+.accordion-checkbox:checked + .accordion-label > .icon {
+  transform: rotate(180deg);
+}
+
+.accordion-checkbox:checked + .accordion-label > .accordion-title {
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 1000px) {
+  .container {
+    width: 715px;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+  }
+
+  .little-box {
+    display: block;
+  }
+
+  .img-box {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .first-box {
+    background: url('../images/illustration-woman-online-desktop.svg') right
+      center/cover;
+    background-size: 350px 250px;
+    background-repeat: no-repeat;
+    top: -1%;
+    object-fit: cover;
+    left: -15%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .second-box {
+    background: url('../images/bg-pattern-desktop.svg') right center/cover;
+    background-size: 700px 700px;
+    background-repeat: no-repeat;
+    top: -20%;
+    left: -35%;
+    width: 120%;
+    height: 120%;
+  }
+
+  .main-container {
+    padding: 2rem;
+    align-items: flex-start;
+  }
+}
+
+/*----------  End of Accordion  ----------*/
+
+/**/
+/**/
+/**/
+
+/*----------  Footer  ----------*/
+.attribution {
+  margin-top: 2rem;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: var(--tertiary-bg-clr);
+}
+/*---------- End of Footer  ----------*/
