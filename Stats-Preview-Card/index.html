@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+  <body>
+    <figure class="card">
+      <div class="img-container">
+        <div class="overlay"></div>
+        <picture>
+          <source
+            media="(min-width:1400px)"
+            srcset="./images/image-header-desktop.jpg"
+          />
+          <img src="./images/image-header-mobile.jpg" alt="Flowers" />
+        </picture>
+      </div>
+      <section class="content">
+        <h1>Get <span>insights</span> that help your business grow.</h1>
+        <p class="desc">
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+        <section class="stats">
+          <div class="stat">
+            <h4 class="score">10k+</h4>
+            <p class="title">companies</p>
+          </div>
+          <div class="stat">
+            <h4 class="score">314</h4>
+            <p class="title">templates</p>
+          </div>
+          <div class="stat">
+            <h4 class="score">12M+</h4>
+            <p class="title">queries</p>
+          </div>
+        </section>
+      </section>
+    </figure>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">doVa</a>.
+    </div>
+  </body>
+</html>

@@ -79,3 +79,9 @@ Live Url : [fm-artical-preview-dova.netlify.app](https://fm-artical-preview-dova
 Live Url : [fm-3column-preview-card-dova.netlify.app](https://fm-3column-preview-card-dova.netlify.app/)
 
 ![](images/3column-preview-card.jpg)
+
+### 14 - STATS PREVIEW CARD
+
+Live Url : [fm-stats-preview-card-dova.netlify.app](https://fm-stats-preview-card-dova.netlify.app/)
+
+![](images/stats-preview-card.jpg)
