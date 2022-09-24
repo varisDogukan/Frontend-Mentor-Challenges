@@ -115,3 +115,9 @@ Live Url : [fm-sunnyside-agency-dova.netlify.app](https://fm-sunnyside-agency-do
 Live Url : [fm-blogr-dova.netlify.app](https://fm-blogr-dova.netlify.app/)
 
 ![](images/blogr-landing-page.jpg)
+
+### 20 - PRODUCT PREVIEW CARD
+
+Live Url : [fm-product-preview-card-dova.netlify.app](https://fm-product-preview-card-dova.netlify.app/)
+
+![](images/product-preview-card.jpg)
