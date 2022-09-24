@@ -121,3 +121,9 @@ Live Url : [fm-blogr-dova.netlify.app](https://fm-blogr-dova.netlify.app/)
 Live Url : [fm-product-preview-card-dova.netlify.app](https://fm-product-preview-card-dova.netlify.app/)
 
 ![](images/product-preview-card.jpg)
+
+### 21 - INTERACTIVE RATING
+
+Live Url : [fm-interactive-rating-dova.netlify.app](https://fm-interactive-rating-dova.netlify.app/)
+
+![](images/interactive-rating.jpg)
