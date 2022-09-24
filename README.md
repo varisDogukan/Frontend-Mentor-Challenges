@@ -7,3 +7,9 @@ Frontend Mentor profile: https://www.frontendmentor.io/profile/do-Va
 Live Url : [fm-qrcode-dova.netlify.app](https://fm-qrcode-dova.netlify.app/)
 
 ![](images/qr-code.jpg)
+
+### 2 - NFT - CARD
+
+Live Url : [fm-nft-preview-card-dova.netlify.app](https://fm-nft-preview-card-dova.netlify.app/)
+
+![](images/nft-card.jpg)
