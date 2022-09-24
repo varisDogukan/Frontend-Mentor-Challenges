@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Article preview component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <script
+      src="https://kit.fontawesome.com/84c0269d92.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <!-- Card Component -->
+    <article class="card">
+      <header class="header"></header>
+      <main class="content">
+        <h3 class="title">
+          Shift the overall look and feel by adding these wonderful touches to
+          furniture in your home
+        </h3>
+        <p class="desc">
+          Ever been in a room and felt like something was missing? Perhaps it
+          felt slightly bare and uninviting. I’ve got some simple tips to help
+          you make any room feel complete.
+        </p>
+        <footer class="block">
+          <img
+            src="./images/avatar-michelle.jpg"
+            alt="Michelle"
+            class="user-img"
+          />
+          <div class="block-content">
+            <p class="block-title">Michelle Appleton</p>
+            <p class="block-date">28 Jun 2020</p>
+          </div>
+          <input type="checkbox" class="hidden" id="toggle" />
+          <label for="toggle" class="btn share-light">
+            <i class="fas fa-share"></i>
+          </label>
+
+          <section class="share">
+            <p class="share-title">SHARE</p>
+            <ul class="links">
+              <li class="link">
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+              </li>
+              <li class="link">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li class="link">
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+              </li>
+            </ul>
+          </section>
+        </footer>
+      </main>
+    </article>
+    <!-- End of Card Component -->
+
+    <!-- Footer -->
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a target="_blank" href="https://github.com/do-Va">doVa</a>.
+    </div>
+    <!-- End of Footer -->
+  </body>
+</html>

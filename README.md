@@ -67,3 +67,9 @@ Live Url : [fm-social-proof-section-dova.netlify.app](https://fm-social-proof-se
 Live Url : [fm-faq-accordion-card-dova.netlify.app](https://fm-faq-accordion-card-dova.netlify.app/)
 
 ![](images/faq-accordion-card.jpg)
+
+### 12 - ARTICAL PREVIEW
+
+Live Url : [fm-artical-preview-dova.netlify.app](https://fm-artical-preview-dova.netlify.app/)
+
+![](images/artical-preview.jpg)
