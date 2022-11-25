@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Frontend Mentor | News homepage</title>
+  </head>
+  <body>
+    <header class="header">
+      <img src="./assets/images/logo.svg" alt="logo" />
+
+      <nav class="navbar transition-all">
+        <ul>
+          <li>
+            <a href="#" class="transition-all">Home</a>
+          </li>
+          <li>
+            <a href="#" class="transition-all">New</a>
+          </li>
+          <li>
+            <a href="#" class="transition-all">Popular</a>
+          </li>
+          <li>
+            <a href="#" class="transition-all">Trending</a>
+          </li>
+          <li>
+            <a href="#" class="transition-all">Categories</a>
+          </li>
+        </ul>
+
+        <div class="icon-box js-close absolute">
+          <img src="./assets/images/icon-menu-close.svg" alt="close icon" />
+        </div>
+      </nav>
+
+      <div class="icon-box js-open">
+        <img src="./assets/images/icon-menu.svg" alt="menu icon" />
+      </div>
+    </header>
+
+    <main>
+      <section class="container">
+        <div class="image-box">
+          <picture>
+            <source
+              media="(min-width:726px)"
+              srcset="./assets/images/image-web-3-desktop.jpg"
+            />
+            <img
+              src="./assets/images/image-web-3-mobile.jpg"
+              alt="illisturator"
+            />
+          </picture>
+        </div>
+
+        <div class="content">
+          <h1 class="title">The Bright Future of Web 3.0?</h1>
+
+          <div class="content-sub">
+            <p class="text">
+              We dive into the next evolution of the web that claims to put the
+              power of the platforms back into the hands of the people. But is
+              it really fulfilling its promise?
+            </p>
+
+            <a href="#" class="btn flex-center transition-all">Read More</a>
+          </div>
+        </div>
+      </section>
+      <aside class="news">
+        <h2>New</h2>
+        <div class="group">
+          <p class="group-title transition-all">Hydrogen VS Electric Cars</p>
+          <p class="group-text">
+            Will hydrogen-fueled cars ever catch up to EVs?
+          </p>
+        </div>
+
+        <div class="group">
+          <p class="group-title transition-all">The Downsides of AI Artistry</p>
+          <p class="group-text">
+            What are the possible adverse effects of on-demand AI image
+            generation?
+          </p>
+        </div>
+
+        <div class="group">
+          <p class="group-title transition-all">Is VC Funding Drying Up?</p>
+          <p class="group-text">
+            Private funding by VC firms is down 50% YOY. We take a look at what
+            that means.
+          </p>
+        </div>
+      </aside>
+    </main>
+
+    <div class="card-container">
+      <div class="card">
+        <img
+          class="card-image"
+          src="./assets/images/image-retro-pcs.jpg"
+          alt="retro pc"
+        />
+        <div class="card-content">
+          <h2>01</h2>
+          <p class="card-title transition-all">Reviving Retro PCs</p>
+          <p class="card-text">
+            What happens when old PCs are given modern upgrades?
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          class="card-image"
+          src="./assets/images/image-top-laptops.jpg"
+          alt="top laptops"
+        />
+        <div class="card-content">
+          <h2>02</h2>
+          <p class="card-title transition-all">Top 10 Laptops of 2022</p>
+          <p class="card-text">Our best picks for various needs and budgets.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          class="card-image"
+          src="./assets/images/image-gaming-growth.jpg"
+          alt="gaming growth"
+        />
+        <div class="card-content">
+          <h2>03</h2>
+          <p class="card-title transition-all">The Growth of Gaming</p>
+          <p class="card-text">
+            How the pandemic has sparked fresh opportunities.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/do-Va" target="_blank">doVa</a>.
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
