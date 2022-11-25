@@ -133,3 +133,9 @@ Live Url : [fm-interactive-rating-dova.netlify.app](https://fm-interactive-ratin
 Live Url : [fm-notifications-dova.netlify.app](https://fm-notifications-dova.netlify.app/)
 
 ![](images/notifications.jpg)
+
+### 23 - News Home Page
+
+Live Url : [fm-news-home-page-dova.netlify.app](https://fm-news-home-page-dova.netlify.app/)
+
+![](images/news.png)
