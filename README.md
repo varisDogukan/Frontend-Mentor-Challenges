@@ -139,3 +139,9 @@ Live Url : [fm-notifications-dova.netlify.app](https://fm-notifications-dova.net
 Live Url : [fm-news-home-page-dova.netlify.app](https://fm-news-home-page-dova.netlify.app/)
 
 ![](images/news.png)
+
+### 24 - Interactive Card Details
+
+Live Url : [fm-interactive-card-details-dova.netlify.app](https://fm-interactive-card-details-dova.netlify.app/)
+
+![](images/desktop-preview.jpg)
