@@ -144,4 +144,10 @@ Live Url : [fm-news-home-page-dova.netlify.app](https://fm-news-home-page-dova.n
 
 Live Url : [fm-interactive-card-details-dova.netlify.app](https://fm-interactive-card-details-dova.netlify.app/)
 
-![](images/desktop-preview.jpg)
+![](images/interactive-card.jpg)
+
+### 25 - Expenses Chart
+
+Live Url : [fm-expenses-chart-dova.netlify.app](https://fm-expenses-chart-dova.netlify.app/)
+
+![](images/expenses-chart.jpg)
