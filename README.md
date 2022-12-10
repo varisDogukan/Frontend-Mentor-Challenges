@@ -151,3 +151,9 @@ Live Url : [fm-interactive-card-details-dova.netlify.app](https://fm-interactive
 Live Url : [fm-expenses-chart-dova.netlify.app](https://fm-expenses-chart-dova.netlify.app/)
 
 ![](images/expenses-chart.jpg)
+
+### 26 - Intro Section With Dropdown Navigation
+
+Live Url : [fm-intro-section-dova.netlify.app](https://fm-intro-section-dova.netlify.app/)
+
+![](images/intro-section.jpg)
