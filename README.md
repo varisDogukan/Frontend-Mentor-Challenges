@@ -157,3 +157,9 @@ Live Url : [fm-expenses-chart-dova.netlify.app](https://fm-expenses-chart-dova.n
 Live Url : [fm-intro-section-dova.netlify.app](https://fm-intro-section-dova.netlify.app/)
 
 ![](images/intro-section.jpg)
+
+### 27 - Result Summary
+
+Live Url : [fm-results-summary-dova.netlify.app](https://fm-results-summary-dova.netlify.app/)
+
+![](images/result-summary.jpg)
